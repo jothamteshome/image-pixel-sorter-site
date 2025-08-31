@@ -1,4 +1,4 @@
-import { ImageSelectionPage } from "../image-picker/image-picker";
+import { ImageSelectionPage } from "../image-picker/imagePicker";
 
 export function meta() {
   return [

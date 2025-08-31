@@ -1,4 +1,4 @@
-import { handleFileUpload } from "../utilities/image_utils";
+import { handleFileUpload } from "../utilities/imageUtils";
 
 
 function PageTitleSection() {
@@ -16,7 +16,7 @@ function InputPixelsSection() {
         <div className="w-full lg:w-2/5 flex flex-col h-full">
             <h2 className="text-xl font-bold pb-4">Input Pixels:</h2>
             <img className="w-full pb-2" id="input-image" style={{ display: "none" }} />
-            <input className="mb-16 lg:m-0 file:[all:revert]" type="file" multiple={false} accept="image/*" onChange={handleFileUpload} />
+            <input id="upload-image-element" className="mb-16 lg:m-0 file:[all:revert]" type="file" multiple={false} accept="image/*" onChange={handleFileUpload} />
         </div>
     );
 }
