@@ -86,7 +86,7 @@ const imageOnLoad = function (event: Event) {
     }
 
     const outputImage = imageDataToImage(sortedImageData);
-    displayImage('output-image', outputImage);
+    displayImage('sorted-pixel-image', outputImage);
 };
 
 

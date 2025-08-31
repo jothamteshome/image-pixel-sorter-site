@@ -2,8 +2,8 @@ import { ImageSelectionPage } from "../image-picker/image-picker";
 
 export function meta() {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Image Pixel Sorter" },
+    { name: "description", content: "This application sorts an uploaded image's pixels by their squared distance to the color black" },
   ];
 }
 
