@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    uses: jothamteshome/github-actions-deploy-static-site/.github/workflows/deploy-static-site.yml@v1
+    uses: jothamteshome/reusable-github-actions-workflows/.github/workflows/deploy-static-site.yml@deploy-static-site-latest
 
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
